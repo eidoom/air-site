@@ -1,3 +1,29 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+BaseUrl = "https://www.ippp.dur.ac.uk/~rmoodie/"
+LanguageCode = "en-GB"
+Title = "Ryan Moodie"
+paginate = 5
+DisqusShortname = ""
+Copyright = ""
+canonifyurls = true
+theme = "air"
+publishDir = "../air-site-static"
+
+[author]
+  name = "Ryan Moodie"
+
+[params]
+  description = ""
+  cover = "images/user.jpg"
+  author = "Ryan Moodie"
+  authorlocation = ""
+  authorwebsite = "//eidoom.github.io"
+  bio= "my bio"
+  logo = "images/avatar.jpg"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "eidoom"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  mainSections = ["post"]
